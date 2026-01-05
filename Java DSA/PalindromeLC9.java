@@ -28,5 +28,6 @@ class PalindromeLC9 {
         else{
             System.out.println("Number is not Palindrome");
         }
+        sc.close();
     }
 }
