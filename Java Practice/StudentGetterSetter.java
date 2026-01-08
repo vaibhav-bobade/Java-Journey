@@ -10,7 +10,7 @@
         rollNo = roll;
     }
     public void setMarks(int m){
-        if(m>=0){
+        if(m>=0 && m<=100){
             marks = m;
         }
         else{
