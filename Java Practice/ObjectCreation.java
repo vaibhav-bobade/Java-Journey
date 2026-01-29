@@ -1,4 +1,4 @@
-class Student{
+class Student4{
     String name;
     int id;
     String email;
@@ -13,7 +13,7 @@ class Student{
 
 public class ObjectCreation {
     public static void main(String[] args) {
-        Student st1 = new Student();
+        Student4 st1 = new Student4();
         st1.name = "Vaibhav";
         st1.id = 21;
         st1.email = "abc@gmail.com";
@@ -26,7 +26,7 @@ public class ObjectCreation {
 
         System.out.println("-------------------------------------------");
 
-        Student st2 = new Student();
+        Student4 st2 = new Student4();
         st2.name = "Arun";
         st2.id = 20;
         st2.email = "abcde@gmail.com";

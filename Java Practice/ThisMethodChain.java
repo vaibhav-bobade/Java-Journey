@@ -1,19 +1,19 @@
-class Dog{
+class Dog5{
     String name;
     String colour;
     int age;
 
-    Dog(){
+    Dog5(){
         System.out.println("Zero Parameterized Constructor");
     }
-    Dog(String name){
+    Dog5(String name){
         this();
         System.out.println("One Parameter Constructor");
         this.name = name;
         this.colour = "Brown";
         this.age = 1;
     }
-    Dog(String name, String colour, int age){
+    Dog5(String name, String colour, int age){
         this(name);
         System.out.println("Main Constructor called");
         this.name = name;
@@ -29,7 +29,7 @@ class Dog{
 
 public class ThisMethodChain {
     public static void main(String[] args) {
-        Dog dog = new Dog("Sheru", "White", 2);
+        Dog5 dog = new Dog5("Sheru", "White", 2);
         dog.show();
     }
 }

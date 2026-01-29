@@ -3,7 +3,7 @@ class Animal{
         System.out.println("This Animal eats Food");
     }
 }
-class Dog extends Animal{
+class Dog4 extends Animal{
     void bark(){
         System.out.println("Dog Barks");
     }
@@ -11,7 +11,7 @@ class Dog extends Animal{
 
 public class Inheritance1 {
     public static void main(String[] args) {
-        Dog dog = new Dog();
+        Dog4 dog = new Dog4();
         dog.eat();
         dog.bark();
     }
