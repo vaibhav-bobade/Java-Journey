@@ -8,11 +8,14 @@ public class Variables {
         boolean isstudent = true;
         //Fourth Semister CGPA
         double gpa = 7.75;
+		//Fifth Sem SGPA
+		double sgpa = 9.10;
 
         //Printing values to Console
         System.out.println("Name :" + name);
         System.out.println("Age :" + age);
         System.out.println("Is Student? :" + isstudent);
         System.out.println("Fourth Semister CGPA :" + gpa);
+		System.out.println("Fifth Sem SGPA: " + sgpa);
     }
 }
