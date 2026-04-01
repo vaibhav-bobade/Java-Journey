@@ -66,6 +66,7 @@ public class LLremoveNode {
         }
         temp.next = null;
         tail = temp;
+        size--;
         return val;
     }
 
@@ -95,6 +96,7 @@ public class LLremoveNode {
         ll.printLL();
         System.out.println(ll.removeLast());
         ll.printLL();
+        System.out.println("Linked List Size: " + size);
     }
 }
 
@@ -105,4 +107,5 @@ Removed: 1
 2 -> 3 -> 4 -> 5 -> null
 Removed: 5
 2 -> 3 -> 4 -> null
+Linked List Size: 3
 */
