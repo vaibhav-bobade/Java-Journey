@@ -1,5 +1,4 @@
-//Program for checking Prime Numbers by User Input
-
+package Basics;
 import java.util.*;
 public class EvenOdd{
     public static void main(String[] args) {
