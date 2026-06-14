@@ -8,6 +8,8 @@
 Why it works: This teaches you Dependency Injection.
 The NotificationHandler doesn't care how the message is sent, only that the object it holds follows the MessagingService contract.
  */
+package OOP;
+
 interface MessagingService{
     void sendMessage(String message, String recipient);
 }
@@ -28,7 +30,7 @@ class SMSService implements MessagingService{
 class WhatsAppService implements MessagingService{
     @Override
     public void sendMessage(String message, String recipient) {
-        System.out.println("Sending WhatsApp message to: " + message);
+        System.out.println("Sending WhatsApp message: " + message);
         System.out.println("Sending to: " + recipient);
     }
 }
@@ -55,3 +57,14 @@ public class Interface1 {
         notificationHandler3.sendMessage("HI", "Vaibhav");
     }
 }
+
+/*----Output----
+
+Sending Email message: Welcome, Sir
+Sending to: Vaibhav
+Sending SMS message: HI Brother
+Sending to: Vaibhav
+Sending WhatsApp message: Hello, Friend
+Sending to: Vaibhav
+
+*/
