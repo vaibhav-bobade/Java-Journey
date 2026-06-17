@@ -10,7 +10,6 @@ package OOP;
 Why it works: This teaches you Dependency Injection.
 The NotificationHandler doesn't care how the message is sent, only that the object it holds follows the MessagingService contract.
  */
-package OOP;
 
 interface MessagingService{
     void sendMessage(String message, String recipient);
