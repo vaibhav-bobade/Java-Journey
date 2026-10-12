@@ -9,7 +9,7 @@ public class TransactionHandling {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/testjdbc";
         String user = "root";
-        String password = "root";
+        String password = "-----";
 
         try(Connection conn = DriverManager.getConnection(url,user,password)) {
             conn.setAutoCommit(false);
